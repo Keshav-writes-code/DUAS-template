@@ -12,5 +12,5 @@ export default defineConfig({
     icon(),
   ],
   site: "https://Keshav-writes-code.github.io",
-  base: "Project Name",
+  base: "Project_Name",
 });
