@@ -6,7 +6,10 @@ bun create astro@latest -- --template keshavWebDev-personal/astroUnocssDaisyui-t
 ### Packages
 - Astro (latest)
 - Unocss (latest)
-- daisyui (3.9.4)
+  - Default Unocss Stuff
+  - Unocss Icones Preset (with Tabler Icones Set)
+- daisyui (latest)
+- tailwind (latest) (used only to serve DaisyUi Classes)
 - Svelte (latest)
 ### Deplot to GH Pages
 - you can Change the value for "base" to basically Define a Sub Path that comes after `https://<your_github_username>.github.io/<Project_Name_Part>` for gh pages hosting
