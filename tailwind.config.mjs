@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 import daisyui from "daisyui"
-import daisyUIClasses from "./daisyui_classes"
+import {daisyUIClasses} from "./daisyui_classes.js"
 export default {
-	content: ["./src/**/*.{html,js,svelte}"],
+	content: [],
   safelist: daisyUIClasses,
   plugins: [daisyui],
 	daisyui:{
