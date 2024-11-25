@@ -1,6 +1,12 @@
+# AUDS
+- A - Astro
+- U - Unocss
+- D - DaisyUi
+- S - Svelte
+
 # Command to Initialize with Template
 ```sh
-bun create astro@latest -- --template keshavWebDev-personal/astroUnocssDaisyui-template#master
+bun create astro@latest -- --template keshavWebDev-personal/AUDS-template#master
 ```
 # Stuff Included
 ### Packages
