@@ -2,6 +2,7 @@
   let count = $state(0)
 </script>
 
-<button class="btn h-32" onclick={()=>{ count++ }} >
-{count}
+<button class="btn" onclick={()=>{ count++ }} >
+  {count}
+  <div class="i-tabler:click size-5"></div>
 </button>
