@@ -1,4 +1,4 @@
-const daisyUIClasses = [
+export const daisyUIClasses = [
   // Layout
   "artboard",
   "card", "card-title", "card-body", "card-actions",
@@ -80,5 +80,3 @@ const daisyUIClasses = [
   "theme-dracula", "theme-cmyk", "theme-autumn", "theme-business", "theme-acid",
   "theme-lemonade", "theme-night", "theme-coffee", "theme-winter"
 ];
-
-export default daisyUIClasses;
