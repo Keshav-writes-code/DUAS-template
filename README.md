@@ -44,11 +44,11 @@ export default defineConfig({
 });
 ```
 - Path on GH Pages = `https://keshavWebDev-personal.github.io/new_project`
-- when you do your First Push of a project created with this template (with the `base` and `site` params set) on Github, it will be automatically deployed  
+- when you do your First Push of a project created with this template (with the `base` and `site` params set) on Github, it will be automatically deployed to GH Pages with the above mentioned resulting URL  
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![localhost_4321_Project_Name](https://github.com/user-attachments/assets/1e772f1e-e4a3-4a6d-8f55-5b97283d01f7)
 
 
