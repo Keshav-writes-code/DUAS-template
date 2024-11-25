@@ -47,6 +47,28 @@ export default defineConfig({
 - when you do your First Push of a project created with this template (with the `base` and `site` params set) on Github, it will be automatically deployed to GH Pages with the above mentioned resulting URL  
 
 
+## Installation & Setup in one Go
+
+Copy Paste this in your Bash \ Zsh Terminal
+
+**For** : `Linux : Debian / Ubuntu`
+```bash
+# Installs Git
+sudo apt-get install git &&
+
+# Installs Node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash &&
+nvm install 22 &&
+
+# Installs Bun
+curl -fsSL https://bun.sh/install | bash &&
+
+# Initialize a project with template in Current Directory
+bun create astro@latest -- --template keshavWebDev-personal/AUDS-template#master
+
+```
+
+
 ## Screenshots
 
 ![localhost_4321_Project_Name](https://github.com/user-attachments/assets/1e772f1e-e4a3-4a6d-8f55-5b97283d01f7)
