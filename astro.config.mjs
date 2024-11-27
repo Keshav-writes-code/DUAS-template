@@ -4,9 +4,11 @@ import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  integrations: [UnoCSS({
-    injectReset: true,
-  }), svelte(), tailwind()],
+  integrations: [
+    tailwind(),
+    UnoCSS({
+      injectReset: true,
+    }), svelte()],
   site: "https://Keshav-writes-code.github.io",
   base: "Project_Name",
 });
