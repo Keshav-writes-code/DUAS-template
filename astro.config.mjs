@@ -10,5 +10,5 @@ export default defineConfig({
       injectReset: true,
     }), svelte()],
   site: "https://Keshav-writes-code.github.io",
-  base: "Project_Name",
+  base: "AUDS-template",
 });
