@@ -1,30 +1,30 @@
-# AUDS
+# DUAS
 
 A Template for your next Web Project
 
-- `A` - AstroJs
-- `U` - Unocss
 - `D` - DaisyUi
+- `U` - Unocss
+- `A` - AstroJs
 - `S` - Svelte
 
 
 ## Installation / Initialize / Setup
 
-Initalize a AUDS Project with
+Initalize a DUAS Project with
 
 bun
 ```bash
-bun create astro@latest -- --template keshavWebDev-personal/AUDS-template#master
+bun create astro@latest -- --template keshavWebDev-personal/DUAS-template#master
 ```
 
 ## Stuff Included
 ### Packages
-- Astro (latest)
+- Daisyui (latest)
 - Unocss (latest)
   - Default Unocss Stuff
   - Unocss Icones Preset (with Tabler Icones Set)
-- daisyui (latest)
-- tailwind (latest) (used only to serve DaisyUi Classes)
+  - tailwind (latest) (used only to serve DaisyUi Classes)
+- Astro (latest)
 - Svelte (latest)
 ### Deplot to GH Pages
 - Change the value for `base` key in `astro.config.mjs` to basically Define a Sub Path that comes after `https://<your_github_username>.github.io/...` for gh pages hosting
@@ -64,7 +64,7 @@ nvm install 22 &&
 curl -fsSL https://bun.sh/install | bash &&
 
 # Initialize a project with template in Current Directory
-bun create astro@latest -- --template keshavWebDev-personal/AUDS-template#master
+bun create astro@latest -- --template keshavWebDev-personal/DUAS-template#master
 
 ```
 
