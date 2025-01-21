@@ -14,7 +14,7 @@ Initalize a DUAS Project with
 
 bun
 ```bash
-bun create astro@latest -- --template Keshav-writes-code/DUAS-template
+bun create astro@latest -- --template Keshav-writes-code/DUAS-template#master
 ```
 
 ## Stuff Included
@@ -64,7 +64,7 @@ nvm install 22 &&
 curl -fsSL https://bun.sh/install | bash &&
 
 # Initialize a project with template in Current Directory
-bun create astro@latest -- --template keshavWebDev-personal/DUAS-template#master
+bun create astro@latest -- --template Keshav-writes-code/DUAS-template#master
 
 ```
 
