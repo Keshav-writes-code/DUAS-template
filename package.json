@@ -26,6 +26,6 @@
     "@unocss/preset-mini": "^65.4.0",
     "@unocss/reset": "^65.4.0",
     "@unocss/transformer-variant-group": "^65.4.0",
-    "unocss": "^65.4.0"
+    "unocss": "^66.0.0"
   }
 }
