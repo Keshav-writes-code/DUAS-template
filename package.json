@@ -12,7 +12,7 @@
   "dependencies": {
     "@ameinhardt/unocss-preset-daisy": "^1.1.6",
     "@astrojs/check": "0.9.4",
-    "@astrojs/svelte": "7.0.6",
+    "@astrojs/svelte": "7.0.7",
     "astro": "5.5.2",
     "daisyui": "^5.0.6",
     "svelte": "^5.23.1",
