@@ -3,7 +3,7 @@ import { defineConfig } from "unocss";
 import { transformerVariantGroup } from "unocss";
 import { presetIcons } from "unocss";
 import { presetMini } from "unocss";
-import { presetDaisy } from "@ameinhardt/unocss-preset-daisy";
+import { presetDaisy } from "unocss-preset-daisyui-next";
 import { presetWebFonts } from "unocss";
 import { createLocalFontProcessor } from "@unocss/preset-web-fonts/local";
 export default defineConfig({
@@ -27,4 +27,3 @@ export default defineConfig({
   ],
   transformers: [transformerVariantGroup()],
 });
-
