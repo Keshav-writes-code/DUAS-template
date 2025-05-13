@@ -14,7 +14,7 @@ Initalize a DUAS Project with
 
 bun
 ```bash
-bun create astro@latest -- --template Keshav-writes-code/DUAS-template#master
+bun create astro@latest -- --template Keshav-writes-code/DUAS-template
 ```
 
 ## Stuff Included
