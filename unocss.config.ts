@@ -7,6 +7,10 @@ import { presetDaisy } from "unocss-preset-daisyui-next";
 import { presetWebFonts } from "unocss";
 import { createLocalFontProcessor } from "@unocss/preset-web-fonts/local";
 export default defineConfig({
+  rules: [
+    ["capitalize", { "text-transform": "capitalize" }],
+    ["isolate", { isolation: "isolate" }],
+  ],
   presets: [
     presetMini(),
     presetIcons(),
