@@ -1,15 +1,8 @@
 ---
 import Counter from "../components/counter.svelte";
+import BaseLayout from "@/layout/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body class="grid place-items-center h-screen" >
-		<Counter client:load />
-	</body>
-</html>
+<BaseLayout class="grid place-items-center h-screen">
+  <Counter client:load />
+</BaseLayout>

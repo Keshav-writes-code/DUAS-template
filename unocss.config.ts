@@ -3,7 +3,7 @@ import { defineConfig } from "unocss";
 import { transformerVariantGroup } from "unocss";
 import { presetIcons } from "unocss";
 import { presetMini } from "unocss";
-import { presetDaisy } from "unocss-preset-daisyui-next";
+import { presetDaisyui } from "@0x-jerry/unocss-preset-daisyui";
 import { presetWebFonts } from "unocss";
 import { createLocalFontProcessor } from "@unocss/preset-web-fonts/local";
 export default defineConfig({
@@ -14,7 +14,7 @@ export default defineConfig({
   presets: [
     presetMini(),
     presetIcons(),
-    presetDaisy(),
+    presetDaisyui(),
     presetWebFonts({
       provider: "bunny",
       fonts: {
